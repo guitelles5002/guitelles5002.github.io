@@ -176,7 +176,7 @@ body {
 }
 
 .footer-social-networks {
-    height: 3vh;
+    height: 2.5vh;
 }
 
 .footer-social-networks ul{
@@ -184,15 +184,18 @@ body {
     display: flex;
     padding: 0;
     margin: 0;
-    height: 3vh;
 }
 
 .footer-social-networks img {
-    height: 1.5vh;
+    height: 2vh;
+    width: 2vw;
 }
 
 .footer-contact-us {
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .teste {
@@ -200,7 +203,7 @@ body {
     color: #5527b1;
     background-color: #fffc00;
     border-radius: 5px;
-    width: 7vw;
+    width: 5.5vw;
     height: 1vh;
     font-size: 2px;
     align-items: center;
