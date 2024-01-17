@@ -210,9 +210,10 @@ body {
 
 .teste h4 {
     margin: 0;
+    text-transform: uppercase;
 }
 
 .footer-contact-us img {
-    height: 2px;
+    height: 4px;
     margin-left: 1px;
 }
