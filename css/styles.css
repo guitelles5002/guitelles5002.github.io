@@ -161,6 +161,7 @@ body {
 .copyright-text {
     display: flex;
     align-items: end;
+    height: 100%;
 }
 
 .copyright-text p {
@@ -174,13 +175,16 @@ body {
     justify-content: center;
 }
 
+.footer-social-networks {
+    height: 3vh;
+}
 
 .footer-social-networks ul{
     list-style: none;
     display: flex;
     padding: 0;
     margin: 0;
-
+    height: 3vh;
 }
 
 .footer-social-networks img {
@@ -188,22 +192,27 @@ body {
 }
 
 .footer-contact-us {
+    margin: 0;
+    padding: 10%;
+}
+
+.teste {
     display: flex;
     color: #5527b1;
     background-color: #fffc00;
     border-radius: 5px;
-    width: 5vw;
+    width: 7vw;
     height: 1vh;
     font-size: 2px;
     align-items: center;
     justify-content: center;
 }
 
-.teste {
-    display: flex;
-
+.teste h4 {
+    margin: 0;
 }
 
 .footer-contact-us img {
     height: 2px;
+    margin-left: 1px;
 }
