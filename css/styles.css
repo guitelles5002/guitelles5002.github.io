@@ -65,7 +65,7 @@ body {
 .contact-us h4 {
   font-size: 5px;
   text-transform: uppercase;
-  margin-right: 3px;
+  margin-right: 1px;
 }
 
 .contact-us img {
@@ -193,7 +193,6 @@ body {
 
 .footer-contact-us {
     margin: 0;
-    padding: 10%;
 }
 
 .teste {
