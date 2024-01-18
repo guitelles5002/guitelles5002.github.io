@@ -171,6 +171,12 @@ body {
   height: 4vh;
 }
 
+.avaliable-items {
+  margin-top: 25px;
+  font-size: 30px;
+  text-align: center;
+}
+
 .footer-container {
     background-color: #1f2122;
     color: #fffc00;
