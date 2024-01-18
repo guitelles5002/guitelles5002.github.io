@@ -12,7 +12,7 @@ body {
 }
 
 .header-container {
-  height: 25vh;
+  height: 22vh;
   width: 100vw;
   background-color: #1f2122;
   display: flex;
@@ -83,6 +83,7 @@ body {
   font-weight: 700;
   padding-top: 1%;
   padding-bottom: 1%;
+  height: 58vh;
 }
 
 .first-section {
@@ -178,6 +179,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 4vw;
+    height: 20vh;
 }
 
 .footer-logo img {
