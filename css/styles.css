@@ -12,13 +12,13 @@ body {
 }
 
 .header-container {
-  height: 7vh;
+  height: 25vh;
   width: 100vw;
-  background-color: #5527b1;
+  background-color: #1f2122;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 3vw;
+  padding: 2vh;
 }
 
 .social-networks {
@@ -26,9 +26,11 @@ body {
 }
 
 .social-networks ul {
+  margin: 0;
   padding: 0;
   display: flex;
   list-style: none;
+
 }
 
 .social-networks li {
@@ -36,13 +38,14 @@ body {
 }
 
 .social-networks img {
-  height: 2vh;
-  width: 5vw;
+  height: 5vh;
+  width: 12vw;
+  padding-left: 12px;
 }
 
 .logo img {
-  height: 5vh;
-  width: 25vw;
+  height: 8vh;
+  width: 30vw;
 }
 
 .contact-us-container {
@@ -52,28 +55,29 @@ body {
 
 .contact-us {
   display: flex;
+  margin-top: 10px;
   background-color: #fffc00;
-  height: 3vh;
-  width: 20vw;
+  height: 4vh;
+  width: 40vw;
   border: none;
-  border-radius: 15px;
+  border-radius: 18px;
   align-items: center;
   justify-content: center;
-  padding: 2px;
+  padding: 6px;
 }
 
 .contact-us h4 {
-  font-size: 7px;
+  font-size: 11px;
   text-transform: uppercase;
   margin-right: 1px;
 }
 
 .contact-us img {
-  height: 2vh;
+  height: 3vh;
 }
 
 .main-container {
-  background-color: #1f2122;
+  background-color: #5527b1;
   text-transform: uppercase;
   color: #fff;
   font-weight: 700;
@@ -86,8 +90,8 @@ body {
 }
 
 .left-content {
-  width: 50vw;
-  padding: 10px;
+  width: 95vw;
+  padding: 5vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,22 +99,24 @@ body {
 }
 
 .left-content h2 {
-  font-size: 7px;
+  font-size: 12px;
+  text-align: center;
 }
 
 .left-content h4 {
-  font-size: 5px;
+  font-size: 10px;
+  text-align: center;
 }
 
 .left-content button {
   text-transform: uppercase;
-  background-color: #5527b1;
+  background-color: #1f2122;
   color: #fff;
   border: none;
   border-radius: 6px;
-  font-size: 5.9px;
-  height: 3vh;
-  width: 60%;
+  font-size: 9.9px;
+  height: 4vh;
+  width: 50vw;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -120,6 +126,7 @@ body {
 .right-content {
   width: 50vw;
   padding: 10px;
+  display: none;
 }
 
 .right-content img {
@@ -138,22 +145,23 @@ body {
 .text-container {
   display: flex;
   align-items: center;
-  padding: 4vw;
+  margin-top: 2vh;
 }
 
 .text-container p {
-  font-size: 7px;
+  font-size: 12px;
   text-align: center;
 }
 
 .image-container img {
   width: 90vw;
+  display: none;
 }
 
 .about-us button {
-  margin-top: 2vh;
+  margin-top: 0.5vh;
   border: none;
-  background-color: #5527b1;
+  background-color: #1f2122;
   color: #fff;
   border-radius: 6px;
   text-transform: uppercase;
@@ -163,16 +171,17 @@ body {
 }
 
 .footer-container {
-    background-color: #5527b1;
+    background-color: #1f2122;
     color: #fffc00;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 0 9vw;
+    padding: 4vw;
 }
 
 .footer-logo img {
-    height: 3vh;
+    height: 7vh;
 }
 
 .copyright-text {
@@ -182,7 +191,7 @@ body {
 }
 
 .copyright-text p {
-    font-size: 4px;
+    font-size: 10px;
 }
 
 .footer-buttons {
@@ -193,7 +202,6 @@ body {
 }
 
 .footer-social-networks {
-    height: 2.5vh;
 }
 
 .footer-social-networks ul{
@@ -204,8 +212,8 @@ body {
 }
 
 .footer-social-networks img {
-    height: 2vh;
-    width: 2vw;
+    height: 4vh;
+    margin-left: 5px;
 }
 
 .footer-contact-us {
@@ -215,24 +223,25 @@ body {
     align-items: center;
 }
 
-.teste {
+.talk-with-us {
     display: flex;
-    color: #5527b1;
+    color: #1f2122;
     background-color: #fffc00;
-    border-radius: 5px;
-    width: 5.5vw;
-    height: 1vh;
-    font-size: 2px;
+    border-radius: 12px;
+    margin-top: 3px;
+    width: 30vw;
+    height: 3vh;
+    font-size: 7px;
     align-items: center;
     justify-content: center;
 }
 
-.teste h4 {
+.talk-with-us h4 {
     margin: 0;
     text-transform: uppercase;
+    margin-right: 3px;
 }
 
 .footer-contact-us img {
-    height: 4px;
-    margin-left: 0.5px;
+    height: 3vh;
 }
