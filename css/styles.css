@@ -11,7 +11,9 @@
   --secondary-color: #fffc00;
   --tertiary-color: #1f2122;
   --white-color: #ffffff;
+  font-size: 12px;
 }
+
 
 html,
 body {
@@ -93,7 +95,7 @@ body {
 }
 
 .contact-us h4 {
-  font-size: 12px;
+  font-size: 1rem;
   text-transform: uppercase;
   margin-right: 9px;
 }
@@ -126,18 +128,18 @@ body {
 }
 
 .left-content h2 {
-  font-size: 12px;
+  font-size: 1rem;
   text-align: center;
 }
 
 .left-content h3 {
-  font-size: 12px;
+  font-size: 1rem;
   text-align: center;
   display: none;
 }
 
 .left-content h4 {
-  font-size: 10px;
+  font-size: 0.833rem;
   text-align: center;
 }
 
@@ -151,7 +153,7 @@ body {
   color: var(--white-color);
   border: none;
   border-radius: 6px;
-  font-size: 18px;
+  font-size: 1.5rem;
   height: 4vh;
   width: 50vw;
   font-weight: 700;
@@ -191,7 +193,7 @@ body {
 }
 
 .text-container p {
-  font-size: 12px;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -212,7 +214,7 @@ body {
   border-radius: 6px;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 1rem;
   height: 4vh;
 }
 
@@ -223,7 +225,7 @@ body {
 
 .avaliable-items {
   margin-top: 49px;
-  font-size: 30px;
+  font-size: 2.5rem;
   text-align: center;
 }
 
@@ -253,7 +255,7 @@ body {
 }
 
 .copyright-text p {
-  font-size: 10px;
+  font-size: 0.866rem;
 }
 
 .footer-buttons {
@@ -302,7 +304,7 @@ body {
   margin-top: 3px;
   width: 28vw;
   height: 3vh;
-  font-size: 9px;
+  font-size: 0.75rem;
   align-items: center;
   justify-content: center;
 }
@@ -323,7 +325,190 @@ body {
 }
 
 @media (min-width: 520px) {
+  :root {
+    font-size: 16px;
+  }
+
   .header-container {
     background-color: #5527b1;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 15vh;
+  }
+
+  .social-networks {
+    width: 33vw;
+  }
+
+  .social-networks img {
+    height: 5vh;
+    width: 5vh;
+  }
+
+  .logo {
+    width: 33vw;
+  }
+
+  .logo img {
+    height: 13vh;
+  }
+
+  .contact-us {
+    width: 24vw;
+    margin-left: 9vw;
+    color: var(--primary-color)
+  }
+
+  .main-container {
+    background-color: var(--tertiary-color);
+    padding-top: 3vh;
+    height: auto;
+  }
+
+  .left-content {
+    padding: 1.5vw;
+  }
+
+  .left-content h2 {
+    margin: 0.5vh;
+  }
+
+  .left-content h3 {
+    display: block;
+    margin: 0 0 2vh 0;
+  }
+
+  .left-content button {
+    background-color: var(--primary-color);
+    width: 35vw;
+  }
+
+  .right-content {
+    display: block;
+  }
+
+  .image-container img{
+    display: block;
+  }
+
+  .about-us button {
+    background-color: var(--primary-color);
+    margin-top: 10%;
+    height: 7vh;
+    border-radius: 15px;
+    width: 60vw;
+  }
+
+  .footer-container {
+    background-color: var(--primary-color);
+    flex-direction: row;
+    padding: 15px 5vw;
+  }
+
+  .copyright-text {
+    margin-top: 5%;
+  }
+
+  .talk-with-us {
+    width: 14vw;
+    font-size: 9px;
+    color: var(--primary-color);
+  }
+
+  .talk-with-us img {
+    height: 2vh;
+  }
+
+}
+
+@media (min-width: 940px) {
+  :root {
+    font-size: 19px;
+  }
+
+  .header-container {
+    padding: 0 7vw
+  }
+
+  .social-networks img {
+    height: 7vh;
+    width: 4vw;
+  }
+
+  .contact-us img{
+    height: 4vh;
+
+  }
+
+  .footer-container {
+    padding: 3px 5vw;
+  }
+
+  .footer-logo img {
+    height: 10vh;
+  }
+
+  .copyright-text {
+    margin-top: 6%;
+  }
+
+  .talk-with-us {
+    font-size: 12px;
+  }
+
+  .talk-with-us img {
+    height: 2.5vh;
+  }
+}
+
+@media (min-width: 1220px) {
+  :root {
+    font-size: 35px;
+  }
+
+  .header-container {
+    height: 18vh;
+  }
+
+  .logo img {
+    width: 20vw;
+  }
+
+  .contact-us {
+    height: 12vh;
+    width: 28vw;
+    margin-left: 5vw;
+    border-radius: 33px;
+  }
+
+  .contact-us img {
+    height: 8vh;
+  }
+
+  .left-content button {
+    height: 10vh;
+  }
+
+  .footer-logo img{
+    height: 15vh;
+  }
+
+  .footer-social-networks img {
+    height: 6vh;
+  }
+
+  .talk-with-us {
+    height: 5vh;
+    width: 10vw;
+  }
+
+  .talk-with-us img {
+    height: 3vh;
+  }
+}
+
+@media (min-width: 1550px) {
+  .second-section {
+    padding: 15px;
   }
 }
