@@ -3,6 +3,7 @@
 * {
   font-family: "Montserrat";
   box-sizing: border-box;
+  user-select: none;
 }
 
 :root {
@@ -37,7 +38,6 @@ body {
   padding: 0;
   display: flex;
   list-style: none;
-
 }
 
 .social-networks li {
@@ -228,17 +228,17 @@ body {
 }
 
 .footer-container {
-    background-color: var(--tertiary-color);
-    color: var(--secondary-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 4vw;
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4vw;
 }
 
 .footer-logo img {
-    height: 7vh;
+  height: 7vh;
 }
 
 .footer-logo img:hover {
@@ -247,35 +247,35 @@ body {
 }
 
 .copyright-text {
-    display: flex;
-    align-items: end;
-    height: 100%;
+  display: flex;
+  align-items: end;
+  height: 100%;
 }
 
 .copyright-text p {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .footer-buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-social-networks {
 }
 
-.footer-social-networks ul{
-    list-style: none;
-    display: flex;
-    padding: 0;
-    margin: 0;
+.footer-social-networks ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
 }
 
 .footer-social-networks img {
-    height: 4vh;
-    margin-left: 5px;
+  height: 4vh;
+  margin-left: 5px;
 }
 
 .footer-social-networks img:hover {
@@ -284,10 +284,10 @@ body {
 }
 
 .footer-contact-us {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-contact-us a {
@@ -295,16 +295,16 @@ body {
 }
 
 .talk-with-us {
-    display: flex;
-    color: var(--tertiary-color);
-    background-color: var(--secondary-color);
-    border-radius: 12px;
-    margin-top: 3px;
-    width: 28vw;
-    height: 3vh;
-    font-size: 9px;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  color: var(--tertiary-color);
+  background-color: var(--secondary-color);
+  border-radius: 12px;
+  margin-top: 3px;
+  width: 28vw;
+  height: 3vh;
+  font-size: 9px;
+  align-items: center;
+  justify-content: center;
 }
 
 .talk-with-us:hover {
@@ -313,11 +313,17 @@ body {
 }
 
 .talk-with-us h4 {
-    margin: 0;
-    text-transform: uppercase;
-    margin-right: 7px;
+  margin: 0;
+  text-transform: uppercase;
+  margin-right: 7px;
 }
 
 .footer-contact-us img {
-    height: 3vh;
+  height: 3vh;
+}
+
+@media (min-width: 520px) {
+  .header-container {
+    background-color: #5527b1;
+  }
 }
