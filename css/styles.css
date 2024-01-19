@@ -109,7 +109,7 @@ body {
   font-weight: 700;
   padding-top: 1%;
   padding-bottom: 1%;
-  height: 58vh;
+  height: 71vh;
 }
 
 .first-section {
@@ -295,7 +295,7 @@ body {
     background-color: var(--secondary-color);
     border-radius: 12px;
     margin-top: 3px;
-    width: 30vw;
+    width: 13vw;
     height: 3vh;
     font-size: 9px;
     align-items: center;
