@@ -324,6 +324,24 @@ body {
   height: 3vh;
 }
 
+@media (max-width: 375px) {
+  :root {
+    font-size: 10px;
+  }
+
+  .talk-with-us {
+    font-size: 0.70rem;
+  }
+
+  .talk-with-us img {
+    height: 2vh;
+  }
+
+  .talk-with-us h4 {
+    margin-left: 2px;
+  }
+}
+
 @media (min-width: 520px) {
   :root {
     font-size: 16px;
