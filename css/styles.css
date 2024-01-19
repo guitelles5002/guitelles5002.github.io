@@ -19,7 +19,7 @@ body {
 }
 
 .header-container {
-  height: 22vh;
+  height: 24vh;
   width: 100vw;
   background-color: var(--tertiary-color);
   display: flex;
