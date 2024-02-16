@@ -1,4 +1,4 @@
-const balonImage1 = document.getElementById('balon1');
+/*const balonImage1 = document.getElementById('balon1');
 const balonImage2 = document.getElementById('balon2');
 
 // Adiciona ou remove a classe 'small-screen' com base na largura da tela
