@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  font-family: "Montserrat";
+  box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.header-container {
+    background-color: red;
+    background-size: cover;
+    padding: 2vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    height: 100%;
+    width: 85%;
+}
+
+.initial-section {
+    background-color: #520000;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 2vh;
+}
+
+.title {
+    text-transform: uppercase;
+    margin-bottom:4vh;
+}
+
+.discover-button button{
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    width: 80vw;
+    height: 4vh;
+    border-radius: 10px;
+}
+
+.black  button{
+    background-color: #1B1B10;
+}
+
+.red button{
+    background-color: #520000;
+}
+
+.about-us {
+    background-color: #1B1B10;
+    color: #fff;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us-text {
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+.our-projects {
+    background-color: #520000;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh;
+}
+
+.projects-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#images-container {
+    width: 100%;
+    display: flex;
+    overflow-x: hidden; /* Permitir rolagem horizontal */
+    transition: scroll-left 0.3s ease; /* Adiciona uma transição suave para a mudança de posição */
+     
+      
+      
+  }
+  
+  .imagem {
+    width: calc(100% - 20px); /* Largura da imagem com espaçamento */
+    margin: 0 10px; /* Espaçamento entre as imagens */
+    height: auto;
+    cursor: grab; /* Altera o cursor para indicar que a imagem é arrastável */
+  }
+  
+
+#imagem {
+    height: 45vh;
+    border-radius: 15px;
+    margin: 20px;
+
+}
+
+.interactive-buttons img{
+    height: 6vh;
+}
+
+.interactive-buttons :hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.interactive-buttons :active {
+    filter: brightness(10%);
+    opacity: 100%;
+}
+
+.more-images-button button {
+    background-color: #1B1B10;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 8px;
+}
+
+.footer-container {
+    background-color: #1B1B10;
+    color: white;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-medias img {
+    height: 8vh;
+}
+
+.social-medias ul {
+    list-style: none;
+    display: flex;
+}
+
+.social-medias li {
+    margin: 10px;
+}
+
+.talk-with-us img{
+    height: 10vh;
+}
+
+.footer-logo img {
+    height: 15vh;
+}
+
+.copyright-text {
+    font-size: 12px;
+}
+
