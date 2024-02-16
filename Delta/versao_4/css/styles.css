@@ -32,8 +32,9 @@ h2 {
 
 .reference {
     text-transform: uppercase;
+    margin-top: 2vh ;
     margin-bottom:4vh;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .logo {
@@ -102,10 +103,10 @@ h2 {
     border: none;
     text-transform: uppercase;
     color: #fff;
-    width: 50vw;
+    width: 70vw;
     height: 4vh;
     border-radius: 10px;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
     margin-top: 3vh;
     background-color: #1b1b1b;
