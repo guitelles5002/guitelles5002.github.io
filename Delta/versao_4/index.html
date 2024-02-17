@@ -1,274 +1,135 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nossa Arte Churrasqueiras - Institucional</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="first-line">
+        <section class="header-container">
+          <div class="logo">
+            <img src="./assets/imgs/White_logo.png" alt="Logo" />
+          </div>
+          <div class="reference">
+            <h2>Referência desde 2020</h2>
+          </div>
+          <div class="first-discover-button">
+            <button>Conheça nossos projetos</button>
+          </div>
+        </section>
+        <div class="image-1">
+          <img src="./assets/imgs/Churrasqueira_1.jpeg" alt="Churrasqueira" />
+        </div>
+      </div>
+      <div class="second-line">
+        <section class="about-us">
+          <div class="title">
+            <h2>Quem somos?</h2>
+          </div>
+          <div class="about-us-text">
+            <p>
+              Na Nossa Arte Churrasqueiras, construímos mais do que simples
+              estruturas de alvenaria; moldamos os sonhos dos nossos clientes em
+              espaços acolhedores, onde a qualidade se encontra com a tradição.
+              Transformamos tijolos em experiências memoráveis, oferecendo não
+              apenas churrasqueiras robustas, mas também fogões a lenha, fornos,
+              dutos e telhas que refletem a excelência artesanal. Aqui, cada
+              projeto é uma expressão de nossa paixão pela construção civil,
+              transformando ideias em ambientes duradouros e repletos de sabor.
+              Bem-vindo ao lugar onde a arte se encontra com a funcionalidade, e
+              os sonhos se tornam realidade em cada tijolo que assentamos.
+            </p>
+          </div>
+          <div class="second-discover-button">
+            <button>Conheça nossos projetos</button>
+          </div>
+        </section>
+        <div class="image-2">
+          <img src="./assets/imgs/Churrasqueira_2.jpg" alt="Churrasqueiras">
+        </div>
+      </div>
+      <section class="our-projects">
+        <div class="title">
+          <h2>Nossos projetos</h2>
+        </div>
+        <div class="projects-images">
+          <div class="interactive-buttons">
+            <img
+              src="./assets/icons/Icon_anterior.png"
+              alt="Imagem anterior"
+              id="botaoAnterior"
+            />
+          </div>
+          <div class="imgs" id="images-container">
+            <img class="imagem" src="./assets/imgs/imagem1.jpeg" alt="Imagem" />
+            <img class="imagem" src="./assets/imgs/imagem2.jpeg" alt="Imagem" />
+            <img class="imagem" src="./assets/imgs/imagem3.jpeg" alt="Imagem" />
+            <img class="imagem" src="./assets/imgs/imagem4.jpeg" alt="Imagem" />
+            <img class="imagem" src="./assets/imgs/imagem5.jpeg" alt="Imagem" />
+          </div>
+          <div class="interactive-buttons">
+            <img
+              src="./assets/icons/Icon_proximo.png"
+              alt="Imagem próxima"
+              id="botaoProximo"
+            />
+          </div>
+        </div>
+        <div class="more-images-button">
+          <button>Veja mais imagens de nossos projetos</button>
+        </div>
+      </section>
 
-* {
-  font-family: "Montserrat";
-  box-sizing: border-box;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-h2 {
-  margin: 0;
-}
-
-.first-line {
-  display: flex;
-  flex-direction: column;
-}
-
-.header-container {
-  background-color: #1b1b10;
-  background-size: cover;
-  padding: 2vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #fff;
-  height: 50vh;
-}
-
-.reference h2 {
-  text-transform: uppercase;
-  margin-top: 2vh;
-  margin-bottom: 4vh;
-  font-size: 16px;
-}
-
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo img {
-  height: 20vh;
-  width: 85%;
-}
-
-.first-discover-button button {
-  border: none;
-  text-transform: uppercase;
-  color: #fff;
-  width: 65vw;
-  height: 4vh;
-  border-radius: 10px;
-  font-size: 14px;
-  font-weight: 700;
-  margin-bottom: 2vh;
-  background-color: #520000;
-}
-
-.image-1 {
-  width: 100vw;
-  height: 50vh;
-}
-
-.image-1 img {
-  width: 100%;
-  height: 100%;
-}
-
-.title {
-  text-transform: uppercase;
-  margin-bottom: 4vh;
-  font-size: 24px;
-}
-
-.second-line {
-  display: flex;
-  flex-direction: column;
-}
-
-.about-us {
-  background-image: url(../assets/imgs/Fundo.jpg);
-  background-size: 500;
-  color: #fff;
-  padding: 2vh 2vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.about-us-text {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.second-discover-button button {
-  border: none;
-  text-transform: uppercase;
-  color: #fff;
-  width: 70vw;
-  height: 4vh;
-  border-radius: 10px;
-  font-size: 15px;
-  font-weight: 700;
-  margin-top: 3vh;
-  background-color: #1b1b1b;
-}
-
-.image-2 {
-  width: 50vw;
-  display: none;
-}
-
-.image-2 img {
-  width: 100%;
-  height: 100%;
-}
-
-.our-projects {
-  background-color: #1b1b10;
-  background-size: cover;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2vh;
-}
-
-.projects-images {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 5vh;
-}
-
-#images-container {
-  width: 100%;
-  display: flex;
-  overflow-x: hidden; /* Permitir rolagem horizontal */
-  transition: scroll-left 0.3s ease; /* Adiciona uma transição suave para a mudança de posição */
-}
-
-.imagem {
-  width: calc(100% - 20px); /* Largura da imagem com espaçamento */
-  margin: 0 10px; /* Espaçamento entre as imagens */
-  height: auto;
-  border-radius: 18px;
-}
-
-.interactive-buttons img {
-  height: 6vh;
-}
-
-.interactive-buttons :hover {
-  opacity: 50%;
-  cursor: pointer;
-}
-
-.interactive-buttons :active {
-  filter: brightness(10%);
-  opacity: 100%;
-}
-
-.more-images-button button {
-  background-color: #520000;
-  border: none;
-  border-radius: 10px;
-  font-size: 18px;
-  text-transform: uppercase;
-  color: #fff;
-  padding: 8px;
-  font-weight: 700;
-}
-
-.footer-container {
-  text-align: center;
-  background-color: #520000;
-  color: white;
-  padding: 2vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.social-medias img {
-  height: 8vh;
-}
-
-.social-medias ul {
-  list-style: none;
-  display: flex;
-}
-
-.social-medias li {
-  margin: 10px;
-}
-
-.talk-with-us img {
-  height: 10vh;
-}
-
-.footer-logo img {
-  height: 15vh;
-}
-
-.copyright-text {
-  font-size: 12px;
-}
-
-@media (min-width: 720px) {
-  .first-line {
-    flex-direction: row;
-  }
-
-  .header-container {
-    width: 50vw;
-    height: 80vh;
-  }
-
-  .logo {
-    margin: 5vh 0 10vh 0;
-  }
-
-  .first-discover-button button {
-    width: 35vw;
-    height: 8vh;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: 700;
-    margin-top: 15vh;
-    background-color: #520000;
-  }
-
-  .image-1 {
-    width: 50vw;
-    height: 80vh;
-  }
-
-  .second-line {
-    flex-direction: row;
-  }
-
-  .about-us {
-    background-size: cover;
-    width: 50vw;
-  }
-
-  .second-discover-button button {
-    width: 35vw;
-    height: 8vh;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: 700;
-    margin-top: 3vh;
-    background-color: #1b1b1b;
-  }
-
-  .image-2 {
-    display: block;
-    width: 50vw;
-  }
-
-  .image-2 img {
-    width: 100%;
-  }
-}
+      <section></section>
+      <section></section>
+    </main>
+    <footer class="footer-container">
+      <div class="title">
+        <h2>Nossas redes sociais</h2>
+      </div>
+      <div class="social-medias">
+        <ul>
+          <li>
+            <a href="https://facebook.com" target="_blank"
+              ><img src="./assets/icons/Icon Facebook.png" alt="Logo Facebook"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/essa.enossaarte?igsh=MTVyazhsaHVqaWZs"
+              target="_blank"
+              ><img
+                src="./assets/icons/Icon Instagram.png"
+                alt="Logo Instagram"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://api.whatsapp.com/send?phone=5511959930063"
+              target="_blank"
+              ><img src="./assets/icons/Icon Whatsapp.png" alt="Logo Whatsapp"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="talk-with-us">
+        <a
+          href="https://api.whatsapp.com/send?phone=5511959930063"
+          target="_blank"
+          ><img src="./assets/icons/Contact_us_button.png" alt="Fale conosco"
+        /></a>
+      </div>
+      <div class="footer-logo">
+        <img src="./assets/imgs/White_logo.png" alt="Logo" />
+      </div>
+      <div class="copyright-text">
+        <p>Copyright ©2024 Todos direitos reservados</p>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
