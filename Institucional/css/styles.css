@@ -185,7 +185,7 @@ h2 {
 }
 
 .contact-btn {
-  margin-top: 2vh;
+  margin-top: 3vh;
 }
 
 .contact-btn button {
@@ -295,11 +295,11 @@ h2 {
 }
 
 .prev-btn {
-  left: 5vw;
+  left: -8vw;
 }
 
 .next-btn {
-  right: 5vw;
+  right: -7vw;
 }
 
 #our-projects {
@@ -324,6 +324,7 @@ h2 {
   display: flex;
   overflow-x: hidden;
   transition: scroll-left 0.3s ease;
+  border-radius: 18px;
 }
 
 .imagem {
@@ -388,7 +389,7 @@ h2 {
 }
 
 .social-medias li:hover {
-  filter: brightness(40%);
+  transform: scale(1.2);
 }
 
 .talk-with-us img {
@@ -396,7 +397,7 @@ h2 {
 }
 
 .talk-with-us :hover {
-  filter: brightness(40%);
+  transform: scale(1.2);
 }
 
 .footer-logo img {
