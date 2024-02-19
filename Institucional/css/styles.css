@@ -119,7 +119,7 @@ h2 {
   width: 70vw;
   height: 4vh;
   border-radius: 10px;
-  font-size: 0,9375rem;
+  font-size: 0, 9375rem;
   font-weight: 700;
   margin-top: 3vh;
   background-color: var(--secondary-color);
@@ -212,7 +212,7 @@ h2 {
 }
 
 #close-carousel img {
-  height: 5vh;
+  height: 3vh;
 }
 
 #close_carousel img:hover {
@@ -221,7 +221,7 @@ h2 {
 
 .carousel-container {
   position: fixed;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   transform-origin: center;
@@ -285,21 +285,15 @@ h2 {
 
 .prev-btn img,
 .next-btn img {
-  height: 15vh;
-}
-
-.prev-btn :hover,
-.next-btn :hover {
-  transform: scale(1.5);
-  cursor: pointer;
+  height: 10vh;
 }
 
 .prev-btn {
-  left: -8vw;
+  left: -5vw;
 }
 
 .next-btn {
-  right: -7vw;
+  right: -5vw;
 }
 
 #our-projects {
@@ -328,7 +322,7 @@ h2 {
 }
 
 .imagem {
-  width: calc(100% - 20px);
+  width: calc(100% - 18px);
   margin: 0 10px;
   height: auto;
   border-radius: 18px;
@@ -422,9 +416,6 @@ h2 {
     height: 80vh;
   }
 
-  .reference h2 {
-  }
-
   .logo {
     margin: 5vh 0 10vh 0;
   }
@@ -461,6 +452,16 @@ h2 {
     background-color: var(--secondary-color);
   }
 
+  #close-carousel img {
+    height: 5vh;
+  }
+
+  .prev-btn :hover,
+  .next-btn :hover {
+    transform: scale(1.5);
+    cursor: pointer;
+  }
+
   .image-2 {
     display: block;
     width: 50vw;
@@ -486,7 +487,7 @@ h2 {
     font-size: 1rem;
   }
 
-  .characteristics ul{
+  .characteristics ul {
     flex-direction: row;
   }
 
@@ -495,28 +496,28 @@ h2 {
   }
 
   .carousel-container {
+    top: 50%;
     width: 60vw;
     height: auto;
   }
-        
+
   .card img {
     height: 30vh;
     width: 30%;
   }
-  
+
   .prev-btn img,
   .next-btn img {
     height: 15vh;
   }
-    
+
   .prev-btn {
     left: calc(60vw - 50vw);
   }
-  
+
   .next-btn {
     right: calc(60vw - 50vw);
   }
-  
 
   #images-container {
     width: 80vw;
