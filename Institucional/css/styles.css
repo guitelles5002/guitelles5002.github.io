@@ -3,6 +3,7 @@
 * {
   font-family: "Montserrat";
   box-sizing: border-box;
+  user-select: none;
 }
 
 :root {
@@ -333,7 +334,7 @@ h2 {
 
 .imgs img {
   width: 80vw;
-  height: 80vh;
+  height: 60vh;
 }
 
 .interactive-buttons img {
