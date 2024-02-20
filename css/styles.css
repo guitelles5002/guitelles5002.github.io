@@ -7,9 +7,8 @@
 }
 
 :root {
-  --primary-color: #E31F1F;
+  --primary-color: #520000;
   --secondary-color: #1B1b10;
-  --tertiary-color: #520000;
   --white-color: #ffffff;
   font-size: 12px;
 }
@@ -23,7 +22,6 @@ body {
 
 .header-container {
   height: 24vh;
-  width: 100vw;
   background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
@@ -53,7 +51,7 @@ body {
 }
 
 .social-networks img:hover {
-  opacity: 50%;
+  transform: scale(1.2);
   cursor: pointer;
 }
 
@@ -63,7 +61,7 @@ body {
 }
 
 .logo img:hover {
-  opacity: 50%;
+  transform: scale(1.2);
   cursor: pointer;
 }
 
@@ -73,7 +71,7 @@ body {
 }
 
 .contact-us:hover {
-  opacity: 50%;
+  transform: scale(1.2);
   cursor: pointer;
 }
 
@@ -98,7 +96,7 @@ body {
   font-size: 1rem;
   text-transform: uppercase;
   margin-right: 9px;
-  color: var(--primary-color);
+  color: var(--white-color);
 }
 
 .contact-us img {
@@ -106,7 +104,7 @@ body {
 }
 
 .main-container {
-  background-color: var(--tertiary-color);
+  background-color: var(--secondary-color);
   text-transform: uppercase;
   color: var(--white-color);
   font-weight: 700;
@@ -201,6 +199,7 @@ body {
 
 .image-container img {
   width: 90vw;
+  height: 110vh;
   display: none;
 }
 
@@ -246,7 +245,7 @@ body {
 }
 
 .footer-logo img:hover {
-  opacity: 50%;
+  transform: scale(1.2);
   cursor: pointer;
 }
 
@@ -254,6 +253,7 @@ body {
   display: flex;
   align-items: end;
   height: 100%;
+  color: var(--white-color);
 }
 
 .copyright-text p {
@@ -265,9 +265,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.footer-social-networks {
 }
 
 .footer-social-networks ul {
@@ -283,7 +280,7 @@ body {
 }
 
 .footer-social-networks img:hover {
-  opacity: 50%;
+  transform: scale(1.2);
   cursor: pointer;
 }
 
@@ -300,7 +297,7 @@ body {
 
 .talk-with-us {
   display: flex;
-  color: var(--primary-color);
+  color: var(--white-color);
   background-color: var(--secondary-color);
   border-radius: 12px;
   margin-top: 3px;
@@ -312,7 +309,7 @@ body {
 }
 
 .talk-with-us:hover {
-  opacity: 50%;
+  transform: scale(1.2);
   cursor: pointer;
 }
 
@@ -376,11 +373,11 @@ body {
   .contact-us {
     width: 24vw;
     margin-left: 9vw;
-    color: var(--primary-color)
+    color: var(--white-color)
   }
 
   .main-container {
-    background-color: var(--tertiary-color);
+    background-color: var(--secondary-color);
     padding-top: 3vh;
     height: auto;
   }
@@ -432,7 +429,7 @@ body {
   .talk-with-us {
     width: 14vw;
     font-size: 9px;
-    color: var(--primary-color);
+    color: var(--white-color);
   }
 
   .talk-with-us img {
