@@ -168,6 +168,21 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: zoom 3s infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  to {
+    transform: scale(1);
+  }
 }
 
 .characteristics li:hover {
@@ -333,7 +348,6 @@ h2 {
   border-radius: 18px;
 }
 
-
 .interactive-buttons img {
   height: 6vh;
 }
@@ -445,7 +459,6 @@ h2 {
     flex-direction: row;
   }
 
-  
   .image-2 {
     display: block;
     width: 50vw;
@@ -486,6 +499,10 @@ h2 {
 
   .characteristics ul {
     justify-content: space-around;
+  }
+
+  .characteristics li {
+    animation: none;
   }
 
   .characteristics img {
